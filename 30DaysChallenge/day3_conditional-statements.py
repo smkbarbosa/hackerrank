@@ -11,9 +11,9 @@ def findWheter(N):
     if N % 2 == 0:
         if N in range(2, 5):
             print('Not Weird')
-        if N in range(6, 20):
+        if N in range(6, 21):
             print('Weird')
-        if N > 20:
+        if N > 21:
             print('Not Weird')
     else:
         print('Weird')
